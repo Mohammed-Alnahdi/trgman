@@ -1,8 +1,8 @@
 <?php
 $access_database = [
     'host' => 'localhost',
-    'user' => 'phpmyadmin',
-    'passwd' => 'B!gBrather02',
+    'user' => 'root',
+    'passwd' => 'Mummy4321',
     'dbase' => ''
 ];
 

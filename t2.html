@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		    <meta charset="UTF-8">
+		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			    <style>
+        body {
+		            font-family: Arial, sans-serif;
+			                display: flex;
+					            justify-content: center;
+						                align-items: center;
+								            height: 100vh;
+									                margin: 0;
+											        }
+
+	        form {
+			            text-align: center;
+				            }
+
+		        label {
+				            margin-right: 10px;
+					            }
+
+			        select {
+					            padding: 5px;
+						            }
+
+				        button {
+						            padding: 8px 16px;
+							                margin-top: 10px;
+									            cursor: pointer;
+										            }
+					    </style>
+					        <title>Dropdown Form</title>
+	</head>
+	<body>
+
+		<form id="myForm">
+			    <label for="selection1">Selection 1:</label>
+			        <select id="selection1">
+					        <option value="option1">Option 1</option>
+						        <option value="option2">Option 2</option>
+							        <option value="option3">Option 3</option>
+								    </select>
+
+								        <br>
+
+									    <label for="selection2">Selection 2:</label>
+									        <select id="selection2">
+											        <option value="optionA">Option A</option>
+												        <option value="optionB">Option B</option>
+													        <option value="optionC">Option C</option>
+														    </select>
+
+														        <br>
+
+															    <label for="selection3">Selection 3:</label>
+															        <select id="selection3">
+																	        <option value="valueX">Value X</option>
+																		        <option value="valueY">Value Y</option>
+																			        <option value="valueZ">Value Z</option>
+																				    </select>
+
+																				        <br>
+
+																					    <button type="button" onclick="submitForm()">Submit</button>
+		</form>
+
+		<script>
+			    function submitForm() {
+				            var selection1 = document.getElementById('selection1').value;
+				            var selection2 = document.getElementById('selection2').value;
+				            var selection3 = document.getElementById('selection3').value;
+
+				            // You can do something with the selected values, for example, log them to the console
+				            console.log('Selection 1:', selection1);
+				            console.log('Selection 2:', selection2);
+				            console.log('Selection 3:', selection3);
+
+				            // Add additional logic or send data to a server as needed
+				        }
+		</script>
+
+	</body>
+</html>
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>برنامج تنسيق الترجمة</title>
+    <style>
+        body {
+		    font-family: Arial, sans-serif;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+		}
+
+	    form {
+		    width: 300px;
+		    text-align: center;
+	     }
+
+	   label {
+	        display: block;
+	        margin-bottom: 10px;
+	     }
+
+       select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+         }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+         }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">تنسيق الترجمة</h1>
+    <form id="myForm">
+            <label for="selection1">الحلقة:</label>
+	           <select id="selection1" name="selection1">
+                  <option value="option1">Option 1</option>
+	              <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+		        </select>
+
+     		<label for="selection2">اللغة:</label>
+	           <select id="selection2" name="selection2">
+		           <option value="optionA">Option A</option>
+		           <option value="optionB">Option B</option>
+		           <option value="optionC">Option C</option>
+		       </select>
+
+
+		    <button type="button">عرض</button>
+	</form>
+
+
+	</body>
+</html>
+
